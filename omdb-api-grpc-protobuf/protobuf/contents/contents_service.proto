@@ -1,0 +1,10 @@
+syntax="proto3";
+
+package contents;
+option go_package = "contents/;contents_grpc";
+
+import "contents/movie.proto";
+
+service ContentService {
+    rpc MovieGetList(MovieGetListRequest) returns (MovieGetListResponse);
+}

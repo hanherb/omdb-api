@@ -1,0 +1,23 @@
+syntax="proto3";
+
+package contents;
+option go_package = "contents/;contents_grpc";
+
+message Movie {
+    string title = 1;
+    string year = 2;
+    string imdbID = 3;
+    string type = 4;
+    string poster = 5;
+}
+
+// =========================================================================================================
+
+message MovieGetListRequest {
+    string searchword = 1;
+    int32 pagination = 2;
+}
+
+message MovieGetListResponse {
+    repeated Movie data = 1;
+}

@@ -1,0 +1,25 @@
+version: v1beta1
+plugins:
+  - name: go
+    out: generate-go
+    opt: paths=source_relative
+    strategy: directory
+
+  - name: go-grpc
+    out: generate-go
+    opt: paths=source_relative
+    strategy: directory
+
+  - name: js
+    out: generate-web
+    opt: import_style=commonjs,binary
+    strategy: directory
+
+  - name: grpc-web
+    out: generate-web
+    opt: import_style=commonjs+dts,mode=grpcwebtext
+    strategy: directory
+
+  - name: ts
+    out: generate-web
+    opt: grpc_js
