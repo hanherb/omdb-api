@@ -8,6 +8,7 @@ Protobuf directory &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; : omdb-api-grpc-pro
 Protobuf Go Generated directory &nbsp; : omdb-generate
 
 Status field on table logger (True = data retreived. False = no data retreived)
+
 --------------- Don't forget to import .sql file on db directory ---------------
 
 Answer for other questions:  
