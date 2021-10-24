@@ -1,11 +1,11 @@
 # omdb-api
 
-Port:
-REST  :3000  
-gRPC  :8180
+Port:  
+REST  &nbsp;&nbsp; :3000  
+gRPC  &nbsp; :8180
 
-Protobuf directory              : omdb-api-grpc-protobuf  
-Protobuf Go Generated directory : omdb-generate
+Protobuf directory &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; : omdb-api-grpc-protobuf  
+Protobuf Go Generated directory &nbsp; : omdb-generate
 
 ---------------+ Don't forget to import .sql file on db directory +---------------
 
